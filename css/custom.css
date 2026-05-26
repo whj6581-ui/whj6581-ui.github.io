@@ -1,0 +1,28 @@
+/* 缩小首页横幅高度 */
+#page-header.full_page {
+  height: 320px !important;
+}
+#page-header #site-info {
+  margin-top: -20px;
+}
+
+/* 缩小首页文章卡片间距 */
+#recent-posts > .recent-post-item {
+  margin-bottom: 16px;
+  padding: 18px 24px;
+}
+
+/* 缩小文章列表内容区域 */
+.layout {
+  max-width: 900px;
+}
+
+/* 缩小文章页顶部标题区域 */
+#post-info {
+  padding: 60px 0 30px;
+}
+
+/* 归档、分类、标签页头部缩小 */
+#page-header:not(.full_page) {
+  height: 260px !important;
+}
